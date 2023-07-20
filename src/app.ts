@@ -4,6 +4,7 @@ import { useDidShow, useDidHide } from '@tarojs/taro'
 import './app.less'
 
 function App(props) {
+
   // 可以使用所有的 React Hooks
   useEffect(() => {})
 

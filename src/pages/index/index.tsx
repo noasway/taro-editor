@@ -3,6 +3,8 @@ import { View, WebView } from '@tarojs/components'
 // import './index.less'
 
 function Index() {
+  console.log('====', process.env.TARO_APP_ENV)
+
   const [nodes, setNodes] = useState(
     [{
       name: 'div',
